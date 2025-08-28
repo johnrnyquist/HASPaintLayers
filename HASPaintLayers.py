@@ -3436,7 +3436,7 @@ class SetupScene(Operator):
     bl_label = "Setup Scene"
     bl_options = {'REGISTER', 'UNDO'}
 
-    viewtransform: BoolProperty(name="Set View Transform to 'Standart'", default=True)
+    viewtransform: BoolProperty(name="Set View Transform to 'Standard'", default=True)
 
     mat: BoolProperty(name="Switch To Material Preview", default=True)
 
@@ -9598,3 +9598,4 @@ def unregister():
 
 if __name__ == "__main__":
     register()
+
